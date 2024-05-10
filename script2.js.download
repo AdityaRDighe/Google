@@ -1,0 +1,6 @@
+let button=document.querySelector("#AD");
+
+button.addEventListener("click",()=>{
+    let name=document.querySelector("#first").value
+    console.log(name);
+});
